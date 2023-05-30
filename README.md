@@ -20,7 +20,7 @@ Soundfonts Available
     - URL prefix to fetch files: https://gleitz.github.io/midi-js-soundfonts/MusyngKite/
 
 - FatBoy Soundfont
-    - Generated from [FatBoy.sf2](https://fatboy.site) (320 MB uncompressed)
+    - Generated from [FatBoy.sf2](https://web.archive.org/web/20220124174028/https://dl.fatboy.site/FatBoy-latest.7z) (320 MB uncompressed)
     - Released under [Creative Commons Attribution Share-Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/)
     - Instrument names as .json file [here](https://gleitz.github.io/midi-js-soundfonts/FatBoy/names.json)
     - URL prefix to fetch files: https://gleitz.github.io/midi-js-soundfonts/FatBoy/
