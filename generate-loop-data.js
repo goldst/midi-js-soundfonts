@@ -5,7 +5,7 @@
 // 2. If file extension is .sfpack, unpack using SFpack
 // 3. Export .sf2 file to sfz (all options enabled) using Polyphone Soundfont Editor
 // 4. Place the output under ./sfz/, make sure that the folder name is the same as the folder name in ./
-// 5. Run this script using 'npm run generate:loop-data'
+// 5. Run this script       using 'npm run generate:loop-data'
 
 import { readdir, readFile, writeFile, mkdir } from 'fs/promises';
 
@@ -57,11 +57,11 @@ soundfonts.forEach(async soundfont => {
 });
 
 function keyRangeToKeyNames(low, high) {
-    return [...Array(high - low + 2).keys()]
+    return [...Array(high - low + 1).keys()]
         .map(i => {
             const key = i + low;
 
-            if(i < 21) {
+            if(key < 21) {
                 return undefined;
             }
 
